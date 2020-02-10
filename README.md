@@ -1,4 +1,6 @@
 ## Globally-local-variable-importance-algoritm-in-python
-- Two methods to calculate local variable importance with global models.
-  - For several months working on this issue, I finally proposed two methods and realised them in python. Hopefully, I upload the codes to get some contribution from developers all over the world. Simutaneously, we wish to obtain some suggestions.
-  - If you have questions or suggestios, please connect to the only auther Tao Li, Sichuan Univercity, China with the email:lp1559345469@gmail.com.
+- Two methods to calculate local variable importance with global models. It means that calcuate variable importance for subset of global data set using global model trained by global data set. I provide two files including 'tbest.py' and 'mbest' to realise these two methods. Both file include a class called 'gim' inheriting from 'RandomForestRegressor' in 'scikit-learn'.
+For example:
+g = gim(500, max_features=0.3, n_jobs=-1))# just be same with 'RandomForestRegressor' in 'scikit-learn'.
+g.fit(X,Y)# fitting the model.
+local_variable importance = g.compute_feature_importance(X,Y,group_by = group_by, std='Y',n_jobs=-1) # calculate local variable importance.
