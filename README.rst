@@ -29,11 +29,11 @@ Compute local variable importance based on decrease in node impurity ::
 	from glvi import todi
 	r_t = todi.lovim(500, max_features=0.3, n_jobs=-1)
 	r_t.fit(train_x, train_y)
-	local_variable importance = r_t.compute_feature_importance(X,Y,partition_feature = partition_feature, norm=True,n_jobs=-1)
+	local_variable_importance = r_t.compute_feature_importance(X,Y,partition_feature = partition_feature, norm=True,n_jobs=-1)
 
 or compute local variable importance based on decrease in accuracy ::
 
 	from glvi import meda
 	r_m = meda.lovim(500, max_features=0.3, n_jobs=-1)
 	r_m.fit(train_x, train_y_
-	local_variable importance = r_m.compute_feature_importance(X,Y,partition_feature = partition_feature, norm=True,n_jobs=-1)
+	local_variable_importance = r_m.compute_feature_importance(X,Y,partition_feature = partition_feature, norm=True,n_jobs=-1)
