@@ -35,5 +35,5 @@ or compute local variable importance based on decrease in accuracy ::
 
 	from glvi import meda
 	r_m = meda.lovim(500, max_features=0.3, n_jobs=-1)
-	r_m.fit(train_x, train_y_
+	r_m.fit(train_x, train_y)
 	local_variable_importance = r_m.compute_feature_importance(X,Y,partition_feature = partition_feature, norm=True,n_jobs=-1)
