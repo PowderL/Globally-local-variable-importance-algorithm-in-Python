@@ -17,7 +17,7 @@ glvi requires:
 User installation
 ~~~~~~~~~~~~~~~~~
 
-If you already have a working installation of numpy, scipy, pandas and scikit-learn, the easiest way to install glvi is using ``pip``   ::
+Install from github is available but is not recommended. If you already have a working installation of numpy, scipy, pandas and scikit-learn, the easiest way to install glvi is using ``pip``   ::
 	
 	pip install -U glvi
 
@@ -30,7 +30,7 @@ Compute local variable importance based on decrease in node impurity ::
 	r_t = todi.lovim(500, max_features=0.3, n_jobs=-1)
 	r_t.fit(train_x, train_y)
 	local_variable_importance = r_t.compute_feature_importance(X,Y,partition_feature = partition_feature, norm=True,n_jobs=-1)
-
+	
 or compute local variable importance based on decrease in accuracy ::
 
 	from glvi import meda
