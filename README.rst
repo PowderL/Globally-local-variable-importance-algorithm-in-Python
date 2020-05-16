@@ -7,7 +7,7 @@ glvi
 
 built on a large time-space scope.
 
-**glvi** inherits from the RandomForestRegressor in **scikit-learn**. If you want to use **gliv** to estimate local variable importance, 
+**glvi** inherits from the RandomForestRegressor in **scikit-learn**. If you want to use **glvi** to estimate local variable importance, 
 
 model fitting is necessary. But at present, using a fitted random forest model from RandomForestRegressor is not supported. To 
 
