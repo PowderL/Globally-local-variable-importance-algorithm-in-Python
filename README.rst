@@ -7,13 +7,13 @@ glvi
 
 built on a large time-space scope.
 
-**glvi** inherits from the RandomForestRegressor in **scikit-learn**. If you want to use **gliv** to estimate local variable 
+**glvi** inherits from the RandomForestRegressor in **scikit-learn**. If you want to use **gliv** to estimate local variable importance, 
 
-importance, model fitting is necessary. But at present, using a fitted random forest model from RandomForestRegressor is not 
+model fitting is necessary. But at present, using a fitted random forest model from RandomForestRegressor is not supported. To 
 
-supported. To accelerate the process, parallel is provided which is same with the parallel in **scikit-learn**. The parallel 
+accelerate the process, parallel is provided which is same with the parallel in **scikit-learn**. The parallel process can be 
 
-process can be implemented by the parameter of ``n_jobs`` which just is consistent with the **scikit-learn**.
+implemented by the parameter of ``n_jobs`` which just is consistent with the **scikit-learn**.
 
 **glvi 0.1.4 was not supporting Python 2.7 and Python 3.4.**
 glvi 0.1.4 and later require Python 3.5 or newer.
