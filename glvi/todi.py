@@ -151,7 +151,7 @@ class lovim(RandomForestRegressor):
         TVI = np.zeros((1,self.FL, self.FN))
         for inde in range(self.FL):
             # to obtain the index of row
-            data_choose = np.where(data_choose_bool[inde])
+            data_choose = np.where(data_choose_bool[inde])[0]
             # via index of row to select rows of X
             choose_x = x[data_choose]
             # via index of row to select rows of Y
