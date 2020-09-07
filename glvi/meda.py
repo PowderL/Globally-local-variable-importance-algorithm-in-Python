@@ -7,7 +7,7 @@ from pandas.core.series import Series
 from pandas.core.frame import DataFrame
 from sklearn.ensemble import RandomForestRegressor
 from numpy import float64
-from sklearn.utils._joblib import Parallel, delayed
+from joblib import Parallel, delayed
 from sklearn.utils.fixes import _joblib_parallel_args
 from numpy.random import permutation
 from numpy import vstack,mean,square,array,zeros
