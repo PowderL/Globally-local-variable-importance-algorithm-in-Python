@@ -60,5 +60,5 @@ or compute local variable importance based on decrease in accuracy ::
 Development
 ~~~~~~~~~~~~~~~~~
 
-To acquire lower computation cost, we also developed a another package using **Cython** to accelerate the process.
-Please refer to : https://github.com/PowderL/Tree-based-machine-learning-for-gis .
+To acquire lower computation cost, we also developed a another package called **forest-gis** using **Cython** to accelerate the process.
+Please refer to : https://github.com/PowderL/Tree-based-machine-learning-for-gis.
