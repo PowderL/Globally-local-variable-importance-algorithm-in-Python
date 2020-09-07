@@ -32,11 +32,11 @@ Install from github is available but is not recommended. If you already have a w
 	
 	pip install -U glvi
 
-or build from source for Windows ::
+Or build from source for Windows ::
 
 	python setup.py install
 
-for linux ::
+For Linux ::
 	
 	pip install --verbose
 
