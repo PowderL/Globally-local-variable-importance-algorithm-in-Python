@@ -56,3 +56,9 @@ or compute local variable importance based on decrease in accuracy ::
 	r_m = meda.lovim(500, max_features=0.3, n_jobs=-1)
 	r_m.fit(train_x, train_y)
 	local_variable_importance = r_m.compute_feature_importance(X,Y,partition_feature = partition_feature, norm=True,n_jobs=-1)
+	
+Development
+~~~~~~~~~~~~~~~~~
+
+To acquire lower computation cost, we also developed a another package using **Cython** to accelerate the process.
+Please refer to : https://github.com/PowderL/Tree-based-machine-learning-for-gis .
