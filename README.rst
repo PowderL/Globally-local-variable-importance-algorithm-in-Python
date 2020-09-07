@@ -31,8 +31,14 @@ User installation
 Install from github is available but is not recommended. If you already have a working installation of numpy, scipy, pandas and scikit-learn, the easiest way to install glvi is using ``pip``   ::
 	
 	pip install -U glvi
-or build from source ::
+
+or build from source for Windows ::
+
 	python setup.py install
+
+for linux ::
+	
+	pip install --verbose
 
 User guide
 ~~~~~~~~~~~~~~~~~
