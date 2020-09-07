@@ -23,14 +23,16 @@ glvi requires:
 - Python (>= 3.5)
 - NumPy (>= 1.11.0)
 - SciPy (>= 0.17.0)
-- joblib (>= 0.11.0)
-- Scikit-learn (>= 0.21.1)
+- Joblib (>= 0.11.0)
+- Scikit-learn (>= 0.20.1)
 User installation
 ~~~~~~~~~~~~~~~~~
 
 Install from github is available but is not recommended. If you already have a working installation of numpy, scipy, pandas and scikit-learn, the easiest way to install glvi is using ``pip``   ::
 	
 	pip install -U glvi
+or build from source ::
+	python setup.py install
 
 User guide
 ~~~~~~~~~~~~~~~~~
