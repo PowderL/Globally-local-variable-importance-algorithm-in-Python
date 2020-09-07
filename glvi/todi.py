@@ -8,7 +8,7 @@ from pandas.core.frame import DataFrame
 from pandas.core.series import Series
 from scipy.sparse import csr_matrix
 from numpy import vstack
-from sklearn.utils._joblib import Parallel, delayed
+from joblib import Parallel, delayed
 from sklearn.utils.fixes import _joblib_parallel_args
 from numpy import float64
 class lovim(RandomForestRegressor):
