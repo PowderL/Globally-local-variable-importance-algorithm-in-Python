@@ -4,7 +4,7 @@ with open('README.rst', 'r', encoding='utf-8') as fh:
     long_description = fh.read()
 install_requires = [
     "scikit-learn >= 0.20.0",
-    "pandas >= 0.24.0"
+    "pandas >= 0.24.0",
     "numpy >= 1.11.0",
     "scipy >= 0.17.0",
     "joblib >= 0.11.0"]
@@ -20,7 +20,7 @@ setuptools.setup(name='glvi',
                  packages=setuptools.find_packages(),
                  zip_safe=False,
                  include_package_data=True,
-                 python_requires=">=3.6",
+                 python_requires=">=3.5",
                  install_requires = install_requires,
                  classifiers=[
                      "Programming Language :: Python :: 3",
