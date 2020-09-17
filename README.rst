@@ -15,12 +15,12 @@ accelerate the process, parallel is provided which is same with the parallel in 
 
 implemented by the parameter of ``n_jobs`` which just is consistent with the **scikit-learn**.
 
-**glvi 0.1.5 was not supporting Python 2.7 and Python 3.5.**
-glvi 0.1.5 and later require Python 3.6 or newer.
+**glvi 0.1.5 and later was not supporting Python 2.7 and Python 3.4.**
+glvi 0.1.5 and later require Python 3.5 or newer.
 
 glvi requires:
 
-- Python (>= 3.6)
+- Python (>= 3.5)
 - NumPy (>= 1.11.0)
 - SciPy (>= 0.17.0)
 - Pandas (>= 0.24.0)
